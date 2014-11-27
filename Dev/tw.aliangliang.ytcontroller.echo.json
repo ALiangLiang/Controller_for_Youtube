@@ -1,0 +1,10 @@
+{
+  "name": "tw.aliangliang.ytcontroller.echo",
+  "description": "Chrome Native Messaging API Example Host",
+  "path": "host.py",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://kfcimnehbfnmnhngdlnfgkaojjmahfie/"
+  ]
+}
+

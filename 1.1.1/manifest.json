@@ -1,0 +1,28 @@
+{
+	"name": "Controller for Youtube™",
+	"description": "It's easy to control the youtube media player with keyboard.",
+	"version": "1.1.1",
+	"background": {
+		"scripts": [  "background.js" ]
+	},
+	"content_scripts": [ {
+			"js": [  "receiver.js" ],
+			"matches": [ "*://*/*" ]
+		}, {
+			"js": [  "controller.js" ],
+			"matches": [ "*://www.youtube.com/*" ],
+			"run_at": "document_end"
+		}],
+	"icons": {
+		"128": "icon/icon128.png",
+		"16": "icon/icon16.png",
+		"19": "icon/icon19.png",
+		"48": "icon/icon48.png"
+	},
+	"permissions": [
+		"tabs", "*://*/*"
+	],
+	"manifest_version": 2,
+	"update_url": "https://clients2.google.com/service/update2/crx",
+	"content_security_policy": "script-src 'self' https://www.google.com https://checkout.google.com; object-src 'self'"
+}

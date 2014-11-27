@@ -1,0 +1,12 @@
+目標player
+快捷鍵可以叫出float視窗 可以選擇目標player(channel)及遙控器GUI
+	使用html作為APP
+	使用快捷鍵(EX. ctrl+數字鍵)選擇目標player
+		使用桌面通知(notification)顯示目前是選擇哪個player
+	遙控器GUI顯示每個player的狀態
+新增快捷鍵
+	速率
+	畫質
+	跳過一段時間
+	上/下一首
+自定義快捷鍵
